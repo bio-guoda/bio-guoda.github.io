@@ -5,6 +5,7 @@ description:        "Whole biodiversity dataset analytics as a service"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/gouda.png'
+logo_alt:           'Photo credit: https://www.flickr.com/photos/eelkedekker/5447913516, CC-BY-2.0, cropped'
 background:         'assets/img/Kaasmarkt2_close.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
