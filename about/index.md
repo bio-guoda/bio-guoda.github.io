@@ -15,6 +15,7 @@ biodiversity datasets to build tools to explore broad biodiversity questions.
 
 * [Matthew Collins](https://www.acis.ufl.edu/people/mjcollin), [iDigBio](http://idigbio.org)
 * [Jennifer Hammock](http://invertebrates.si.edu/hammock.htm), [Encyclopedia of Life](http://eol.org)
+* [Nicky Nicolson](https://www.kew.org/science/who-we-are-and-what-we-do/people/nicky-nicolson), [Royal Botanic Gardens Kew](https://www.kew.org)
 * [Jorrit Poelen](http://eol.org/users/56974), freelance, [Global Biotic Interactions](http://globalbioticinteractions.org)
 * [Anne Thessen](http://ronininstitute.org/research-scholars/anne-thessen/), [Ronin Institue](http://ronininstitute.org)
-* [Alexander Thompson](https://www.acis.ufl.edu/people/godfoder), [iDigBio](http://idigbio.org)
+
