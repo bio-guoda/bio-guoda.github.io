@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linking Major Biodiversity Databases"
-date: 2017-03-09
+date: 2018-09-17
 excerpt: "GUODA publishes paper on how to link major biodiversity databases"
 tags: [databases, biodiversity, guoda]
 comments: false
