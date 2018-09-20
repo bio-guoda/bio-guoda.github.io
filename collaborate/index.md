@@ -9,10 +9,11 @@ How can you collaborate with GUODA?
 
 ## Upcoming Events
 
-- June 19-23, 2017 - Society for the Preservation of Natural History Collections
- ([SPNHC](http://www.spnhc2017denver.org/)) demo - [Abstract](https://docs.google.com/document/d/13oPVezLl95dfvJVmAqNYoD8hes2N_SqiePu1YOmZEq4)
+- August 25-31, 2018 - joint meeting of the Society for the Preservation of Natural History Collections (SPNHC) and Biodiversity Information Standards (TDWG) ([TDWG](http://spnhc-tdwg2018.nz/))
 - October 2-6, 2017 - Biodiversity Information Standards ([TDWG](https://tdwg.github.io/conferences/2017/)) 
 Using Big Data Techniques to Cross Dataset Boundaries - Integration and Analysis of Multiple Datasets symposium - [Abstract](https://tdwg.github.io/conferences/2017/program/abstract/?id=1A9sAnRugUm5V6VifwrMvLBiRiBEb3keN7D6Ay1WJJKw)
+- June 19-23, 2017 - Society for the Preservation of Natural History Collections
+ ([SPNHC](http://www.spnhc2017denver.org/)) demo - [Abstract](https://docs.google.com/document/d/13oPVezLl95dfvJVmAqNYoD8hes2N_SqiePu1YOmZEq4)
 
 ## GitHub
 
