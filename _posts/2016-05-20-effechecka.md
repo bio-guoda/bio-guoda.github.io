@@ -11,7 +11,7 @@ tag:
 - eol
 comments: false
 ---
- ** This project has been brought to a close and is no longer actively maintained. For more information about the history and context of this widget, please see the [github documentation](https://github.com/effechecka) **
+ **This project has been brought to a close and is no longer actively maintained. For more information about the history and context of this widget, please see the [github documentation](https://github.com/effechecka).**
 
 The purpose of [Effechecka](https://github.com/bio-guoda/effechecka) is to create, save, export and follow
 checklists given specific geospatial, taxonomic and trait constraints using data sources including, but not limited to,
