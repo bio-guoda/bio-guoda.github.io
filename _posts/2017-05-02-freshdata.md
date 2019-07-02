@@ -11,6 +11,8 @@ tag:
 - eol
 comments: false
 ---
+** This project has been brought to a close and is no longer actively maintained. For more information about the history and context of this widget, please see the [github documentation](https://github.com/gimmefreshdata) **.
+
 FreshData was developed by EOL to provide a way for researchers to know when new
 data of interest becomes availible as well as for data providers to know what 
 data researchers find interesting.

@@ -11,7 +11,9 @@ tag:
 - eol
 comments: false
 ---
-The purpose of [Effechecka](https://github.com/jhpoelen/effechecka) is to create, save, export and follow
+ ** This project has been brought to a close and is no longer actively maintained. For more information about the history and context of this widget, please see the [github documentation](https://github.com/effechecka) **
+
+The purpose of [Effechecka](https://github.com/bio-guoda/effechecka) is to create, save, export and follow
 checklists given specific geospatial, taxonomic and trait constraints using data sources including, but not limited to,
 [GBIF](http://gbif.org), [iDigBio](https://idigbio.org) and 
 [EOL TraitBank](http://eol.org/traitbank). Example checklists include 
