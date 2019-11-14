@@ -11,6 +11,7 @@ On January 5, 2017 NSF issued a [Dear Colleague](https://www.nsf.gov/publication
 the scientific community sees as their needs for advanced cyberinfrastructure. 
 Since that's what we're about, we wrote a response.
 
+See also (https://www.nsf.gov/cise/oac/ci2030/pdf/RFI-Collins-260.pdf)[https://www.nsf.gov/cise/oac/ci2030/pdf/RFI-Collins-260.pdf] and a full list of responses to the [NSF Dear Colleage Letter](https://www.nsf.gov/cise/oac/ci2030/rfi_responses.jsp) .
 
 <h1>Data Management Plans Aren’t Enough<br />to Ensure Usable Data</h1>
 
