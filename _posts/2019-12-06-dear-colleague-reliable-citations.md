@@ -6,7 +6,7 @@ excerpt: "Response to Oct 2019 NSF's Dear Colleague Letter: Request for Informat
 tags: [nsf, reliable, citation]
 comments: false
 ---
-[pdf version](assets/2019-nsf-dear-colleague-enabling-reliable-data-citations.pdf)
+[pdf version](/assets/2019-nsf-dear-colleague-enabling-reliable-data-citations.pdf)
 
 **To:**
 
