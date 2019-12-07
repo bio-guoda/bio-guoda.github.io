@@ -8,9 +8,7 @@ comments: false
 ---
 [pdf version](/assets/2019-nsf-dear-colleague-enabling-reliable-data-citations.pdf)
 
-**To:** National Science Foundation,
-2415 Eisenhouwer Avenue,
-Alexandia, Virginia 22314
+**To:** National Science Foundation
 
 **Re:** Response to NSF 20-015 Dear Colleague Letter: Request for Information on Data-Focused Cyberinfrastructure Needed to Support Future Data-Intensive Science and Engineering Research
 
