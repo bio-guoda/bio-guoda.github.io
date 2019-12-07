@@ -23,13 +23,13 @@ Dear Dr. Erwin Gianchandani and Dr. Manish Parashar:
 On 22 October 2019, you wrote a Dear Colleague Letter to request the community to “provide input to NSF on specific data-intensive S&E research questions and challenges and the essential data-related CI
 services and capabilities needed to publish, discover, transport, manage and process data in secure, performant and scalable ways to enable that data-intensive research.” This is our response.
 
-# Enabling Reliable Content-based Data Citations 
+## Enabling Reliable Content-based Data Citations 
 
-## Abstract
+### Abstract
 
 Scientific data lie at the foundation of discovery. Increasingly, scientific data are stored digitally and are openly available online. Reliable data references are essential to the integrity of our scholarly record and the distributed nature of data requires that we increase management of versioning and identifiers in order to practice reproducible science. But, in spite of evidence to support that URLs and DOIs are unreliable due to link rot and content drift, successful initiatives like DataCite \[1\] and DataONE \[2\] continue to rely on them. We propose to adopt commonly used cryptographic hashing techniques to complement existing citation practices to implement reliable data references. The proposed reliable references can be used in concert with existing digital data infrastructures to create data indexing and archiving schemes without relying on a complex web of nondeterministic redirection and indirection associated with common use of URLs and DOIs in citations. 
 
-## Data-Intensive Research Questions and Challenges
+### Data-Intensive Research Questions and Challenges
 
 Answering global research questions about life on our planet requires meticulous integration of datasets across geospatial, temporal, institutional and disciplinary domains.
 
@@ -39,7 +39,7 @@ But, even if adequate skills and resources are available, a basic challenge exis
 
 This is why we argue that the most basic challenge in re-use of data-intensive, data-driven research is still how to reliably reference data sources. Reliable data citations not only benefit future generations of researchers, but also facilitate peer-reviews of data-intensive research publications. Implicit in this is the requirement for persistent, unique identifiers that are reliably linked to the referenced dataset. 
 
-## Data-Oriented Cyber Infrastructure Needed to Address the Research Questions and Challenges
+### Data-Oriented Cyber Infrastructure Needed to Address the Research Questions and Challenges
 
 A part of the Unix philosophy: "Expect the output of every program to become the input to another, as yet unknown, program. ", might as well be used to attribute qualities of re-usable research: "Expect the output of every *research project* to become the input to another, as yet unknown, *research project*."
 
@@ -64,7 +64,7 @@ Note that item 1 (above) still allows for referencing a virtually unlimited amou
 
 A frugal, proof-of-concept tool "Preston" ([https://preston.guoda.bio](https://preston.guoda.bio)) and associated data publications have shown that adopting modifications 1-5 are feasible at scale by re-using existing infrastructures like the Internet Archive and Zenodo in combination with commonly-used open technologies like nginx, rsync and linux.
 
-## Other considerations
+### Other considerations
 
 The distributed nature of data requires that we increase management of versioning and identifiers in order to practice reproducible science. Much of this will require an increase in technical staff at data repositories and education of practicing researchers regarding identifier hygiene \[3\] and 21st Century data culture. Some of these issues are technical, but most are social.
 A technical issue is that managing and referencing data for individual researchers and their labs is still challenging: existing online tools like Google Docs and Dropbox are not built to keep track of scientific datasets and lead to inconsistent collections of data files. Just like citation managers (e.g., BibTex in combination with Zotero/Mendeley) make it easy to reuse references across manuscripts, data management tools can help to find and cite datasets.
@@ -84,7 +84,7 @@ Sincerely,
  * Tobias Kuhn, VU University Amsterdam, Netherlands
  * Michael J. Elliott, University of Florida
 
-## References
+### References
 
 1. Brase, J., 2009. DataCite - A Global Registration Agency for Research Data. 2009 Fourth International Conference on Cooperation and Promotion of Information Resources in Science and Technology. Available at: http://dx.doi.org/10.1109/coinfo.2009.66.
 2. Michener, W.K. et al., 2012. Participatory design of DataONE—Enabling cyberinfrastructure for the biological and environmental sciences. Ecological Informatics, 11, pp.5–15. Available at: http://dx.doi.org/10.1016/j.ecoinf.2011.08.007.
