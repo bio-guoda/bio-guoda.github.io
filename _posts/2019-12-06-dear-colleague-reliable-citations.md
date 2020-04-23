@@ -7,6 +7,9 @@ tags: [nsf, reliable, citation]
 comments: false
 ---
 [pdf version](/assets/2019-nsf-dear-colleague-enabling-reliable-data-citations.pdf)
+[pdf @ NSF](https://www.nsf.gov/cise/oac/datacirfi/pdf/11202805209_Poelen.pdf) 
+
+For all responses to the RFI see https://www.nsf.gov/cise/oac/datacirfi/rfi_responses.jsp .
 
 **To:** National Science Foundation
 
