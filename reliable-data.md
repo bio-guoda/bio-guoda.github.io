@@ -3,7 +3,7 @@
 # Reliable Data
 ## Digital Data Conference 2020 
 
-This is a landing page. Please edit at:
+[Collaborative notes / contact info](https://docs.google.com/document/d/1mj9lMymfUbxxcXzG9rF6J_U0p1W_3u-aUGb6hNqf9ec/edit)
 
 
 
