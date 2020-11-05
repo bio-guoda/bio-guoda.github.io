@@ -18,15 +18,12 @@ title: "registry"
     document.querySelector('#status').textContent = 'locating datasets that contain [' + specimenId + ']...';
     oReq.addEventListener("load", function() {
       document.querySelector('#status').textContent = 'the following datasets contain [' + specimenId + ']:';
-      this.responseText
-        .split('\n')
-        .forEach(function(link) {
-          let elem = document.querySelector('#eml').appendChild('a');
+      this.responseText.split('\n').forEach(function(link) {
+          let elem = document.querySelector('#eml').appendChild(document.createElement('a'));
           elem.setAttribute('href', link);
           elem.setAttribute('target', '_blank');
           elem.textContent = link;
       });
-      document.querySelector('#eml').textContent = this.responseText;
     });
     oReq.open('GET', 'https://preston.guoda.bio/find/arctos/' + specimenId);
     oReq.send(); 
