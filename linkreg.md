@@ -19,7 +19,8 @@ title: "registry"
     oReq.addEventListener("load", function() {
       document.querySelector('#status').textContent = 'the following datasets contain [' + specimenId + ']:';
       this.responseText.split('\n').forEach(function(link) {
-          let elem = document.querySelector('#eml').appendChild(document.createElement('a'));
+          let elemDiv = document.querySelector('#eml').appendChild(document.createElement('div'));
+          let elem = elemDiv.appendChild(document.createElement('a'));
           elem.setAttribute('href', link);
           elem.setAttribute('target', '_blank');
           elem.textContent = link;
