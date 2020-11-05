@@ -5,6 +5,13 @@ title: "registry"
 <div>
 <button onclick="locateDatasets()" type="button" style="background: yellow">find</button>
 <input type="text" id="identifier" style="width: 50em" value="http://arctos.database.museum/guid/UAM:Herb:74954">
+<select name="pets" id="link-type">
+    <option value="arctos" selected>arctos</option>
+    <option value="email">email</option>
+    <option value="doi">doi</option>
+    <option value="symbiota">symbiota</option>
+    <option value="uuid">uuid</option>
+</select>
 </div>
 
 <p id="status"></p>
@@ -14,10 +21,11 @@ title: "registry"
    
   locateDatasets = function() {
     let specimenId = document.querySelector('#identifier').value; 
+    let linkType = document.querySelector('#link-type').value; 
     let oReq = new XMLHttpRequest();
     document.querySelector('#status').textContent = 'locating datasets that contain [' + specimenId + ']...';
     oReq.addEventListener("load", function() {
-      document.querySelector('#status').textContent = 'the following datasets contain [' + specimenId + ']:';
+      document.querySelector('#status').textContent = 'the following datasets contain [' + specimenId + '] of type [' + linkType + ']:';
       this.responseText.split('\n').forEach(function(link) {
           let elemDiv = document.querySelector('#eml').appendChild(document.createElement('div'));
           let elem = elemDiv.appendChild(document.createElement('a'));
@@ -26,7 +34,7 @@ title: "registry"
           elem.textContent = link;
       });
     });
-    oReq.open('GET', 'https://preston.guoda.bio/find/arctos/' + specimenId);
+    oReq.open('GET', 'https://preston.guoda.bio/find/' + linkType + '/' + specimenId);
     oReq.send(); 
   }
 </script>
