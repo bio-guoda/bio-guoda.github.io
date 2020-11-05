@@ -3,9 +3,9 @@ layout: default
 title: "registry"
 ---
 <div>
+<button onclick="locateDatasets()" type="button" style="background: yellow">find</button>
 <input type="text" id="identifier" style="width: 50em" value="http://arctos.database.museum/guid/UAM:Herb:74954">
 </div>
-<button onclick="locateDatasets()" type="button" style="width: 50em; height: 10em; background: yellow">find related datasets</button>
 
 <p id="status"></p>
 <p id="eml"></p>
