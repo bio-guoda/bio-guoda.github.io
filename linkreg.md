@@ -21,7 +21,7 @@ title: "registry"
 
 <script>
   
-  let websocket = new WebSocket("ws://echo.websocket.org");
+  let websocket = new WebSocket("wss://echo.websocket.org");
   websocket.onmessage = function (event) {
     console.log(event.data);
   }
