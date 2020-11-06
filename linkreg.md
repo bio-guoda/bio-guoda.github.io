@@ -17,8 +17,19 @@ title: "registry"
 <p id="status"></p>
 <p id="eml"></p>
 
+<p id="websocket"></p>
+
 <script>
-   
+  
+  let websocket = new WebSocket("ws://echo.websocket.org");
+  websocket.onmessage = function (event) {
+    console.log(event.data);
+  }
+  websocket.onopen = function (event) {
+    websocket.send("ping"); 
+  };
+
+
   locateDatasets = function() {
     let specimenId = document.querySelector('#identifier').value; 
     let linkType = document.querySelector('#link-type').value; 
@@ -38,7 +49,13 @@ title: "registry"
           elem.textContent = link;
       });
     });
-    oReq.open('GET', 'https://preston.guoda.bio/find/' + linkType + '/' + specimenId);
+    let requestUrl = 'https://preston.guoda.bio/find/' + linkType + '/' + specimenId;
+    if (websocket.readyState === websocket.OPEN) {
+      // replace with sending follow request to some preston service
+      websocket.send('requesting: [' + requestUrl + ']');
+    }
+    oReq.open('GET', requestUrl);
+ 
     oReq.send(); 
   }
 </script>
