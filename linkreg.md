@@ -23,16 +23,16 @@ title: "registry"
     let specimenId = document.querySelector('#identifier').value; 
     let linkType = document.querySelector('#link-type').value; 
     let oReq = new XMLHttpRequest();
-    let result = document.querySelector('#result');
-    if (result) { result.remove(); }
+    document.querySelectorAll('.result').forEach(function(elem) { elem.remove() });
     document.querySelector('#eml');
     document.querySelector('#status').textContent = 'locating datasets that contain [' + specimenId + ']...';
     oReq.addEventListener("load", function() {
       document.querySelector('#status').textContent = 'the following datasets contain [' + specimenId + '] of type [' + linkType + ']:';
       let result = document.querySelector('#eml').appendChild(document.createElement('div'));
-      result.setAttribute('id', 'result');
+      result.setAttribute('class', 'result');
       this.responseText.split('\n').forEach(function(link) {
-          let elem = result.appendChild(document.createElement('a'));
+          let elemDiv = result.appendChild(document.createElement('div'));
+          let elem = elemDiv.appendChild(document.createElement('a'));
           elem.setAttribute('href', link);
           elem.setAttribute('target', '_blank');
           elem.textContent = link;
