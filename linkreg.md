@@ -10,7 +10,7 @@ title: "registry"
     <option value="email">email</option>
     <option value="doi">doi</option>
     <option value="symbiota">symbiota</option>
-    <option value="uuid">uuid</option>
+    <option value="inaturalist">inaturalist</option>
 </select>
 </div>
 
