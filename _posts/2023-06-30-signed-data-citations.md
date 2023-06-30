@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "EAGER Grant Awarded"
-date: 2018-08-08
+title: "publication: Sign data citations to enable data verification and improve citation persistence"
+date: 2023-06-30
 excerpt: "Michael Elliott, Jorrit Poelen and Jose Fortes suggest to sign data citations to enable data verification and improve citation persistence"
 tags: [graph, biodiversity, guoda, eager]
 comments: false
