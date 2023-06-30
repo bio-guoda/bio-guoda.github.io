@@ -8,7 +8,8 @@ comments: false
 ---
 With support from the National Science Foundation EAGER Grant [1839201](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839201&HistoricalAwards=false), we are happy to announce the publication of:
 
-> Elliott, M.J., Poelen, J.H. & Fortes, J.A.B. 2023. Signing data citations enables data verification and citation persistence. _Sci Data_. [doi:10.1038/s41597-023-02230-y](https://doi.org/10.1038/s41597-023-02230-y) [hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d](https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d)
+> Elliott, M.J., Poelen, J.H. & Fortes, J.A.B. 2023. Signing data citations enables data verification and citation persistence. _Sci Data_. [doi:10.1038/s41597-023-02230-y](https://doi.org/10.1038/s41597-023-02230-y) 
+> [hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d](https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d)
 
 ## Abstract 
 
